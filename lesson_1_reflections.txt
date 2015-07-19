@@ -1,0 +1,41 @@
+R: How did viewing a diff between two versions of a file help you see the bug
+that was introduced?
+A: Using diff quickly highlighted the changes that were made from one version to
+the next. This is a great troubleshooting step to take when something has broken
+after something has changed...find out what changed!
+R: How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+A: As code changes things that worked at one point may stop working in the
+future. In going back to each version I could easily see when the code change
+occurred that broke the build. I could then spend less time troubleshooting.
+Also, I would not worry about making mistakes because I know I could go back to
+old code which would free my mind and decision trees to make choices I might
+not otherwise make if it was a pain in the ass to go back.
+R: What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+A: Pro 1 - do not have a whole sea of changes to wade through when looking for a
+specific change. Pro 2 - Nice to commit a version you are comfortable with vs
+everyone seeing the whole process to get there. Cons 1 - Easy to forget to save.
+Cons 2 - Different saving standards between individuals. Could be an issue on a
+team.
+R: Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each file
+separately?
+A: In Git files are saved that rely on each other to make the program or whatever
+actually work. This is very common. In Google Docs the full usefulness of each
+file type is self contained. Rarely are there links between two different files.
+R: How can you use the commands git log and git diff to view the history of
+files?
+A: The command git log is used to display the commit history in a particular
+repo including commit IDs. The commits can be compared using the git diff command
+to compare the two. The comparison will show lines that had been added or removed.
+What about lines that have been changed but not a full add or delete?
+R: How might using version control make you more confident to make changes that
+could break something?
+A: I would be more confident in making changes because I would know I could
+easily go back to versions that worked. Also, I can easily track down what
+changed (line by line).
+R: Now that you have your workspace set up, what do you want to try using Git
+for?
+A: Work scripts, future project scripts. Etc.
