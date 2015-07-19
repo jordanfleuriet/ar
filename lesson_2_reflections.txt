@@ -1,0 +1,11 @@
+R: What happens when you initialize a repository? Why do you need to do it?
+A: The folder the git init command is run in becomes the top level repo folder
+and all git services are now available here. It is required to actually use git
+for that particular folder or project or file or whatever.
+R: How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+A: The staging area is different from the working directory because it contains a
+version of the code that might be different from the WD. It is a way to save work
+but not necessarily commit this work to the repo. The SA is different from the
+repo because it contains files that are actively being modified where the SA
+contains a version of "the truth."
