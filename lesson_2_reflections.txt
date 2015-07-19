@@ -9,3 +9,9 @@ version of the code that might be different from the WD. It is a way to save wor
 but not necessarily commit this work to the repo. The SA is different from the
 repo because it contains files that are actively being modified where the SA
 contains a version of "the truth."
+R: How can you use the staging area to make sure you have one commit per logical
+change?
+A: I can use git diff to compare staging to the working directory or use
+git diff --staged to compare my staged commit with the HEAD. Looking at the
+code differences in this way allows me to verify I am only making one logical
+change per commit.
