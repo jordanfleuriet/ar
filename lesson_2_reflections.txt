@@ -15,3 +15,19 @@ A: I can use git diff to compare staging to the working directory or use
 git diff --staged to compare my staged commit with the HEAD. Looking at the
 code differences in this way allows me to verify I am only making one logical
 change per commit.
+R: What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+A: Branches would be helpful if I made a logical departure in the code that was
+not meant to be the main way the code would work in the future. A branch helps
+because it allows me to keep all the code I already have, but give me a path to
+make my non-core changes without needing to jump back and forth between commits.
+R: How do the diagrams help you visualize the branch structure?
+A: Diagrams are helpful to make sure one does not make changes on a detached
+head and lose work. Also it is useful when merging two branches. It makes it
+easier to see what changes will be merged without needing to scroll through
+git log.
+R: What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+A: The result of merging branches is to combine the code from each branch into
+ the checked out branch. I don't know what that second question means.
+  
