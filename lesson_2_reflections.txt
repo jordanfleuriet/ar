@@ -29,5 +29,13 @@ git log.
 R: What is the result of merging two branches together? Why do we represent it
 in the diagram the way we do?
 A: The result of merging branches is to combine the code from each branch into
- the checked out branch. I don't know what that second question means.
-  
+the checked out branch. I don't know what that second question means.
+R: What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+A: Some merges are obvious when new lines are added at the bottom of a file and
+nothing else about the file has changed. It is helpful that Git completes these
+ types of changes automatically. If Git was to merge all changes automatically
+ it would inevitably fuck up because Git has no way of knowing if more
+ complicated changes should be made. The flip side of this is manual merges.
+ This could be very time consuming and unnecessary in situations where the
+ merges are straight forward. 
