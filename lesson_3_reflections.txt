@@ -7,10 +7,13 @@ automatically stay up-to-date with your remote repository?
 A: If working with collaborators, you may pull down a branch that has been
 updated but you don't want the updates.
 
-
 R: Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
-A:
+A: A fork is a clone of one branch in a repo to another repo. A clone is a copy
+of a branch locally to a different local location. A branch is a copy of the
+current commit history, usually with an extra commit which makes it the new
+branch. Also a branch has a different name than the branch associated with the
+original commit history.
 
 
 R: What is the benefit of having a copy of the last known state of the remote
