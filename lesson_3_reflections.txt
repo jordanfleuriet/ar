@@ -1,10 +1,11 @@
 R: When would you want to use a remote repository rather than keeping all your work
 local?
-A: 
+A: When you want the public or collaborators to see the repos, to make a backup,
 
 R: Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
-A:
+A: If working with collaborators, you may pull down a branch that has been
+updated but you don't want the updates.
 
 
 R: Describe the differences between forks, clones, and branches.  When would you
