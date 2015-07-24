@@ -15,11 +15,11 @@ current commit history, usually with an extra commit which makes it the new
 branch. Also a branch has a different name than the branch associated with the
 original commit history.
 
-
 R: What is the benefit of having a copy of the last known state of the remote
 stored locally?
-A:
-
+A: This is useful when tracking the changes you have made locally. You can run
+git log or even git diff on the last commit from the origin/master to see the
+changes.
 
 R: How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
